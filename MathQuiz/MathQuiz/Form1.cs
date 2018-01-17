@@ -1,4 +1,12 @@
-﻿using System;
+﻿/***********************************************************
+ * Author: Makram Ibrahim
+ * Instructor: Brother Blazzard
+ * CIT 365 - .NET Software Development
+ * Summary:
+ * This is a discktop application to display a math quiz
+ * on Visual Studio C#. 
+ * *********************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -96,9 +104,6 @@ namespace MathQuiz
             RandomNumber();
 
             plus = numAddition1 + numAddition2;
-
-
-
 
             timer = 30;
             sum.Value = 0;
